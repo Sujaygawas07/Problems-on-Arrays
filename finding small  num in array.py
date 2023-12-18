@@ -5,7 +5,7 @@
 array=list(map(int,input("enter values seprated by space").split())) # taking input as a list
 print(array)
 
-def small_no(n):                      # defining a function
+def small_no(array):                      # defining a function
     if not array:                     # checking if array is empty or not
         return"not array"
         
